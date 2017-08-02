@@ -1,0 +1,33 @@
+baseURL = "http://lucasrim.cool/"
+theme = "cocoa"
+author = "lucas rim"
+title = "lucas rim | donut savant"
+builddrafts = false
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+
+[permalinks]
+blog  = "blog/:slug/"
+
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/blog/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -110
+identifier             = "about"
+url                    = "/fixed/about/"
+
+[params]
+author = "lucas rim"
+avatar = "img/profile.png"
+email = "me@lucasrim.cool"
+github = "//github.com/lucasrim"
+twitter = "//twitter.com/lucasrim"
+linkedin = "//linkedin.com/in/lucasrim"
