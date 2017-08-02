@@ -7,7 +7,7 @@ canonifyurls = true
 contentdir = "content"
 languageCode = "en-US"
 layoutdir = "layouts"
-publishdir = "docs"
+publishdir = "public"
 
 [permalinks]
 blog  = "blog/:slug/"
